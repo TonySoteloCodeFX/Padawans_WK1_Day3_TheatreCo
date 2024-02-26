@@ -29,7 +29,6 @@ nav {
     text-decoration: none;
     margin: 0px 25px;
     color: white;
-    /* background-color: aqua; */
 }
 
 .hero_pic {
@@ -59,35 +58,33 @@ nav {
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 30px;
+    bottom: 110px;
 }
 
 .int_body_cont {
     width: 60%;
+    height: 1020px;
 }
 
 .hero_date {
     border: 1px solid grey;
-    background-color: rgb(235, 235, 235);
+    background-color: #F7F7F7;
     width: 100%;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .hero_date_text {
     margin: 5px 50px;
+    font-size: 30px;
 }
 
 .ticket_cont {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 1px solid black;
     /* background-color: aquamarine; */
-}
-
-.ticket_pic_cont {
-    /* width: 500px;
-    height: 300px; */
-    background-color: brown;
 }
 
 .ticket_pic {
@@ -99,26 +96,90 @@ nav {
 
 }
 
-/* Info Goes Here  */
+.info_cont {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    margin: 40px;
+    /* background-color: #EBB625; */
+}
 
-
-
-/* Info Goes Here  */
+.title_txt {
+    font-size: 25px;
+}
 
 .button_cont {
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .button_item {
-    color: white;
     background-color: #EBB625;
     width: 100px;
     height: 40px;
     border: 1px solid gray;
 }
 
-.test {
-    /* background-color: blueviolet; */
+.button_link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer_cont {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    height: 250px;
+    position: relative;
+    bottom: 75px;
+    /* background-color: #EBB625; */
+}
+
+.map_item {
+    background-image: url(/imgs/map.PNG);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: -90px 0px;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+.title_footer {
+    font-size: 30px;
+}
+
+.footer_txt{
+    font-size: 15px;
+}
+
+.info_footer_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_icons {
+    color: #EBB625;
+}
+
+.shows_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.social_cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.footer_links {
+    text-decoration: none;
+    color: white;
 }
